@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UTS_PWEB_QURAN/static/css/main.2efdaf3c.css",
+    "main.js": "/UTS_PWEB_QURAN/static/js/main.86040ebe.js",
+    "index.html": "/UTS_PWEB_QURAN/index.html",
+    "main.2efdaf3c.css.map": "/UTS_PWEB_QURAN/static/css/main.2efdaf3c.css.map",
+    "main.86040ebe.js.map": "/UTS_PWEB_QURAN/static/js/main.86040ebe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2efdaf3c.css",
+    "static/js/main.86040ebe.js"
+  ]
+}
