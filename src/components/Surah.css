@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #ff8800;
+    --secondary-color: #ff8800;
+    --third-color: #064663;
+    --white-color: #efefef;
+}
+
+.surah-container {
+    margin-top: 20px;
+}
+
+.surah-wrapper {
+    padding: 12px 0px;
+}
+
+.surah-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.surah-title span.surah-title-arabic {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+}
+
+.surah-arti {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 12px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.surah-info {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-read-surah {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color) !important;
+}
+
+.btn-read-surah a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.btn-read-surah a:hover {
+    color: var(--white-color);
+}
+
+.title-container {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 90px;
+}
+
+.title-content {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.title-subcontent {
+    color: var(--primary-color);
+}
+
+.loading {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    color: var(--primary-color) !important;
+}
+
+@media (max-width: 1200px) {
+    .surah-number, .surah-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .surah-number, .surah-title {
+        font-size: 16px;
+    }
+
+    .surah-arti, .surah-info {
+        font-size: 15px;
+    }
+}
